@@ -1,0 +1,29 @@
+*********************************************************************
+
+Plugin Name: WP-Zeitgeist
+Plugin URI: http://www.village-idiot.org/archives/2007/04/15/wp-zeitgeist/
+Description: WP-Zeitgeist provides a visual representation of search trends and patterns. 
+Version: 1.0
+Author: whoo
+Author URI: http://www.village-idiot.org
+Usage: <?php zeitgeist_display(1, 100, '', ''); ?>
+
+*********************************************************************
+
+
+Changes:
+
+04/15/07: Version 1.0
+
+	Initial release for WordPress 2.0.x/2.1.x
+
+
+Usage and Installation: 
+
+1. 	Upload wp-zeitgeist.php to your WordPress plugins directory.
+
+2. 	Activate the plugin.
+
+3. 	Use <?php zeitgeist_display(1, 100, '', ''); ?> wherever you want to display your cloud.
+
+4.	Style your cloud.

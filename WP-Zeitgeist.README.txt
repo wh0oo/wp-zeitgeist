@@ -1,0 +1,69 @@
+*********************************************************************
+
+Plugin Name: WP-Zeitgeist
+Plugin URI: http://www.village-idiot.org/archives/2007/04/15/wp-zeitgeist/
+Description: WP-Zeitgeist provides a visual representation of search trends and patterns. 
+Version: 1.0
+Author: whoo
+Author URI: http://www.village-idiot.org
+Usage: <?php zeitgeist_display(1, 100, '', ''); ?>
+
+*********************************************************************
+
+
+
+What is a zeitgeist?
+
+A zeitgeist is a visual representation of search trends. Basically, a zeitgeist
+tells you what people are looking for. The most-well known zeitgeist is Google's
+and it can be viewable here >> http://www.google.com/press/zeitgeist_monthly.html
+
+
+
+What does WP-Zeitgeist do, exactly?
+
+WP-Zeitgeist is intended to be displayed as a cloud. 
+Inside the cloud are links, the link text (what you see) is the actual 
+UNEDITED search engine query that brought a visitor to your site. 
+The link portion (the clickthrough link) provides the actual page that was hit as a result of the query.
+The bigger the text, the more hits you've gotten from that query.
+
+
+
+How do I style the cloud?
+
+Thats up to you. The links are set up so that they use a default of 'class="cloud_x"' where X is a number from 0 to 10.
+0 == not a lot of hits. 
+10 == lots of hits
+
+
+So styling can be as simple as this:
+
+
+.cloud_0 {font-size:1.1em;}
+.cloud_1 {font-size:1.2em;}
+.cloud_2 {font-size:1.3em;}
+.cloud_3 {font-size:1.4em;}
+.cloud_4 {font-size:1.5em;}
+.cloud_5 {font-size:1.6em;}
+.cloud_6 {font-size:1.7em;}
+.cloud_7 {font-size:1.8em;}
+.cloud_8 {font-size:1.9em;}
+.cloud_9 {font-size:2.0em;}
+.cloud_10 {font-size:2.1em;}
+
+
+Can I use WP-Zeitgeist in a WordPress page?
+
+Yes, but you need php-exec or runPHP (plugins for WordPress that allow the use of PHP inside of pages.
+
+Can I use this as a widget?
+
+Yes, there's some widgetize anything plugin, that will work with it.
+
+Can I use this in my sidebar? 
+
+Of course. 
+
+
+ 
